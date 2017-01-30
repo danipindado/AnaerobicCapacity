@@ -62,10 +62,10 @@ class AnaerobicCapacityView extends Ui.SimpleDataField {
         
         // Change the field title with the compute method choosen
         if (FORMULA == 0) {
-            label = "% W' Bal (int)";
+            label = "%AWC (int)";
         }
         else {
-            label = "% W' Bal (diff)";
+            label = "%AWC (diff)";
         }
         mFitContributor = new MO2FitContributor(self);
     }

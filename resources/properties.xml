@@ -1,13 +1,13 @@
 <resources>
     <properties>
-        <property id="CP" type="number">250</property>
-        <property id="WPRIME" type="number">20000</property>
+        <property id="CP" type="number">175</property>
+        <property id="WPRIME" type="number">60</property>
         <property id="FORMULA" type="number">0</property>
     </properties>
 
     <strings>
-       <string id="CP_title">CP (Watts)</string>
-       <string id="WPRIME_title">W' (J)</string>
+       <string id="CP_title">CHR(bpm)</string>
+       <string id="WPRIME_title">AWC(beats)</string>
        <string id="FORMULA_title">Compute method (default: Integral)</string>
        <string id="INTEGRAL_title">Integral</string>
        <string id="DIFFERENTIAL_title">Differential</string>

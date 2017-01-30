@@ -1,4 +1,4 @@
-# IQwprimebal
-Garmin Connect IQ Wprime Bal application
+# AnaerobicCapacity
 
-This app is published on Garmin Connect IQ App Store: https://apps.garmin.com/en-US/apps/6dcfffe5-cd3d-41f3-8ba3-13fa0647b003
+
+http://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1048&context=nutritiondiss

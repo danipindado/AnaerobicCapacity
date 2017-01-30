@@ -77,25 +77,27 @@
 <entry id="22" method="true" symbol="setTimerRunning"/>
 <entry field="true" id="32" symbol="AnaerobicCapacity"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
+<entry field="true" id="42" symbol="hemoglobin_percentage_label"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="18" symbol="mTimerRunning"/>
+<entry field="true" id="43" symbol="hemoglobin_percentage_units"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry field="true" id="34" symbol="totalBelowCP"/>
-<entry field="true" id="43" symbol="WPRIME_title"/>
+<entry field="true" id="45" symbol="WPRIME_title"/>
 <entry id="8389849" symbol="units"/>
 <entry field="true" id="25" symbol="FORMULA"/>
-<entry field="true" id="42" symbol="CP_title"/>
+<entry field="true" id="44" symbol="CP_title"/>
 <entry id="21" symbol="mSessionAverageHPField"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="11" object="true" symbol="MO2FitContributor"/>
-<entry field="true" id="45" symbol="INTEGRAL_title"/>
+<entry field="true" id="47" symbol="INTEGRAL_title"/>
 <entry field="true" id="23" symbol="CP"/>
 <entry field="true" id="35" symbol="countBelowCP"/>
 <entry id="14" symbol="mHPLapAverage"/>
 <entry id="16" symbol="mLapRecordCount"/>
 <entry id="8389752" method="true" symbol="onTimerReset"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="46" symbol="AppName"/>
+<entry field="true" id="48" symbol="AppName"/>
 <entry field="true" id="8" symbol="CURR_HEMO_PERCENT_FIELD_ID"/>
 <entry field="true" id="41" symbol="DIFFERENTIAL_title"/>
 <entry id="19" symbol="mCurrentHPField"/>
@@ -108,7 +110,7 @@
 <entry id="8389936" symbol="nativeNum"/>
 <entry field="true" id="29" symbol="powerValue"/>
 <entry id="26" symbol="mFitContributor"/>
-<entry field="true" id="44" symbol="FORMULA_title"/>
+<entry field="true" id="46" symbol="FORMULA_title"/>
 <entry field="true" id="10" symbol="AVG_HEMO_PERCENT_FIELD_ID"/>
 <entry field="true" id="28" symbol="pwr"/>
 <entry field="true" id="9" symbol="LAP_HEMO_PERCENT_FIELD_ID"/>
