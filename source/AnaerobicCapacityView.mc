@@ -95,10 +95,10 @@ class AnaerobicCapacityView extends Ui.SimpleDataField {
             // Method by differential equation Froncioni / Clarke
             if (FORMULA == 1) {
                 if (pwr < CP) {
-                  AnaerobicCapacity = AnaerobicCapacity + (CP-pwr)*(WPRIME-AnaerobicCapacity)/WPRIME.toFloat();
+                  AnaerobicCapacity = AnaerobicCapacity + ((CP-pwr)/60.0)*(WPRIME-AnaerobicCapacity)/WPRIME.toFloat();
                 }
                 else {
-                  AnaerobicCapacity = AnaerobicCapacity + (CP-pwr);
+                  AnaerobicCapacity = AnaerobicCapacity + ((CP-pwr)/60.0);
                 }
             }
             
@@ -106,21 +106,21 @@ class AnaerobicCapacityView extends Ui.SimpleDataField {
             else {
                 // powerValue
                 if (pwr > CP) {
-                    powerValue = (pwr - CP);
+                    powerValue = (pwr - CP)/60.0;
                 }
                 else {
                     powerValue = 0;
                 }
                 // Compute TAU
                 if (pwr < CP) {
-                    totalBelowCP += pwr;
+                    totalBelowCP += (pwr/60.0);
                     countBelowCP++;
                 }
                 if (countBelowCP > 0) {
-                    TAUlive = 546.00 * Math.pow(Math.E, -0.01*(CP - (totalBelowCP/countBelowCP))) + 316;
+                    TAUlive = 546.00 * Math.pow(Math.E, -0.01*((CP/60.0) - (totalBelowCP/countBelowCP))) + 316;
                 }
                 else {
-                    TAUlive = 546 * Math.pow(Math.E, -0.01*(CP)) + 316;
+                    TAUlive = 546 * Math.pow(Math.E, -0.01*(CP/60.0)) + 316;
                 }
 
                 // Start compute W'Bal
